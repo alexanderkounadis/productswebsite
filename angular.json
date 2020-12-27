@@ -25,7 +25,11 @@
             "aot": true,
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "assets/img/facebook.svg",
+              "assets/img/instagram.svg",
+              "assets/img/messenger.svg",
+              "assets/img/tel.svg"
             ],
             "styles": [
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
