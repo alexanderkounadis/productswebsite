@@ -64,6 +64,14 @@ a.item:hover {
 	-ms-transform: translateY(-4%);
 	transform: translateY(-4%);
 }
+.container {
+  width: 200px;
+  height: 120px;
+}
+.container img {
+  width: 100%;
+  height: auto;
+}
 
 .hover-underline:hover:after {
 	background: rgba(0, 203, 204, 0.5);

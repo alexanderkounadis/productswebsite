@@ -1,7 +1,7 @@
 <div *ngIf="product">
   <h2>{{product.title | uppercase}} Details</h2>
   <div><span>id: </span>{{product.id}}</div>
-  <div>
+  <div class="container">
     <img src={{product.img}} alt={{product.title}} class="col-xs-12 only">
   </div>
   <button (click)="goBack()">go back</button>
