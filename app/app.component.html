@@ -1,0 +1,33 @@
+<header class="header col-xs-12 ta-left container">
+  <div class="logo-wrap f-left">
+    <h1 class="pt-20">
+      <a href="/" title="FOXES art">
+        <img src="../assets/img/logo.svg" class="logo" alt="FOXES art">
+      </a>
+    </h1>
+    <h2 class="d-inline-block logotext mt-10 hidden-xs">lovely handcrafts</h2>
+  </div>
+  <div class="header-right f-right">
+    <ul class="social ta-right col-xs-12 f-right mt-20">
+      <li class="d-inline-block"><a href="https://www.facebook.com/foxesart" target="_blank" title="facebook"><img src="../assets/img/facebook.svg" alt="facebook" width="22"></a></li>
+      <li class="d-inline-block"><a href="https://www.instagram.com/foxes_wire_art" target="_blank" title="instagram"><img src="../assets/img/instagram.svg" alt="instagram" width="22"></a></li>
+    </ul>
+    <nav class="menu d-inline-block f-right mt-10 xs-ta-right">
+      <ul>
+        <li class="menu-item"><a routerLink="/about-us" class="hover-underline">Ποιοι είμαστε</a></li>
+        <li class="menu-item"><a routerLink="/products" class="hover-underline">Προϊόντα</a></li>
+        <li class="menu-item"><a routerLink="/contact" class="hover-underline">Επικοινωνία</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+<router-outlet></router-outlet>
+</main>
+
+<footer class="col-xs-12 ta-center mt-50">
+  <p>© Copyright <span id="year">{{currentYear}}</span> FOXES art • lovely handcrafts. All rights reversed.</p>
+  <a href="https://m.me/foxesart" class="messenger social pr-0" title="Στείλτε μας μήνυμα στο messenger" target="_blank" rel="noreferrer"><img src="img/messenger.svg" width="48" alt="messenger"></a>
+  </footer>
+
