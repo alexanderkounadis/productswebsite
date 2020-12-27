@@ -29,7 +29,8 @@
               "src/assets/img/facebook.svg",
               "src/assets/img/instagram.svg",
               "src/assets/img/messenger.svg",
-              "src/assets/img/tel.svg"
+              "src/assets/img/tel.svg",
+              "src/assets/img/logo.svg"
             ],
             "styles": [
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
