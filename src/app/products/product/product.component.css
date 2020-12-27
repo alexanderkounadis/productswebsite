@@ -179,14 +179,14 @@ h2.logotext {
 	position: relative;
 	color: #0656f7;
 	display: inline-block;
-	background: url('../assets/img/messenger.svg') no-repeat 16px 50%;
+	background: url('../../../assets/img/messenger.svg') no-repeat 16px 50%;
 	background-size: 20px;
 	padding-left: 50px;
 }
 
 .prod-tel {
 	display: inline-block;
-	background: url('../assets/img/tel.svg') no-repeat 0px 45%;
+	background: url('../../../assets/img/tel.svg') no-repeat 0px 45%;
 	background-size: 16px;
 	padding-left: 25px;
 }
